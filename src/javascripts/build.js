@@ -31689,10 +31689,8 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("h1", [_vm._v("page")]),
       _c("h3", [_vm._v("Title: " + _vm._s(_vm.title))]),
       _c("h5", [_vm._v("Body: " + _vm._s(_vm.body))]),
-      _c("h6", [_vm._v(_vm._s(_vm.done))]),
       _c("router-link", { attrs: { to: "/" } }, [_vm._v("home")])
     ],
     1
@@ -31715,8 +31713,6 @@ if (false) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_axios__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_axios__);
-//
-//
 //
 //
 //

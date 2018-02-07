@@ -1,9 +1,7 @@
 <template lang='jade'>
   div
-    h1 page
     h3 Title: {{ title }}
     h5 Body: {{ body}}
-    h6 {{done}}
     router-link(to='/') home
 </template>
 
