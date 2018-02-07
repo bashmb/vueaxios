@@ -7,13 +7,12 @@
 
 <script>
   import axios from 'axios'
+  
   export default {
     data () {
-
       return {
         title: null,
         body: null,
-        done: null,
         errors: []
       }
     },
@@ -23,7 +22,6 @@
       .then(response => {
         this.title = response.data.title
         this.body = response.data.body
-        console.log('done')
       })
       .catch( e => {
         this.errors.push(e)
